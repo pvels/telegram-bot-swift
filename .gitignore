@@ -40,3 +40,5 @@ TelegramBot.swift
 # Carthage/Checkouts
 
 Carthage/Build
+
+Package.resolved
