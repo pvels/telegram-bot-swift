@@ -1,0 +1,1256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"TelegramBotSDK::TelegramBotSDKPackageTests::ProductTarget" /* TelegramBotSDKPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_344 /* Build configuration list for PBXAggregateTarget "TelegramBotSDKPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_347 /* PBXTargetDependency */,
+			);
+			name = TelegramBotSDKPackageTests;
+			productName = TelegramBotSDKPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		56886560201A7954006547C2 /* Scanner+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5688655F201A7954006547C2 /* Scanner+Utils.swift */; };
+		56886562201A7A11006547C2 /* Scanner+Compatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56886561201A7A10006547C2 /* Scanner+Compatibility.swift */; };
+		OBJ_172 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_178 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_160 /* Package.swift */; };
+		OBJ_184 /* BotName.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* BotName.swift */; };
+		OBJ_185 /* JSON+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* JSON+Utils.swift */; };
+		OBJ_186 /* NSRunLoop+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* NSRunLoop+Utils.swift */; };
+		OBJ_187 /* Optional+Unwrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Optional+Unwrap.swift */; };
+		OBJ_188 /* String+ExtractBotCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* String+ExtractBotCommand.swift */; };
+		OBJ_189 /* String+HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* String+HTTP.swift */; };
+		OBJ_190 /* String+Indent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* String+Indent.swift */; };
+		OBJ_191 /* String+Trim.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* String+Trim.swift */; };
+		OBJ_192 /* String+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* String+Utils.swift */; };
+		OBJ_193 /* DataTaskError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* DataTaskError.swift */; };
+		OBJ_194 /* DictionaryUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* DictionaryUtils.swift */; };
+		OBJ_195 /* HTTPUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* HTTPUtils.swift */; };
+		OBJ_196 /* TelegramBot+answerCallbackQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* TelegramBot+answerCallbackQuery.swift */; };
+		OBJ_197 /* TelegramBot+answerInlineQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* TelegramBot+answerInlineQuery.swift */; };
+		OBJ_198 /* TelegramBot+deleteWebhook.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* TelegramBot+deleteWebhook.swift */; };
+		OBJ_199 /* TelegramBot+editMessageCaption.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* TelegramBot+editMessageCaption.swift */; };
+		OBJ_200 /* TelegramBot+editMessageReplyMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* TelegramBot+editMessageReplyMarkup.swift */; };
+		OBJ_201 /* TelegramBot+editMessageText.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* TelegramBot+editMessageText.swift */; };
+		OBJ_202 /* TelegramBot+forwardMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* TelegramBot+forwardMessage.swift */; };
+		OBJ_203 /* TelegramBot+getChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* TelegramBot+getChat.swift */; };
+		OBJ_204 /* TelegramBot+getChatAdministrators.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* TelegramBot+getChatAdministrators.swift */; };
+		OBJ_205 /* TelegramBot+getChatMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* TelegramBot+getChatMember.swift */; };
+		OBJ_206 /* TelegramBot+getChatMembersCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* TelegramBot+getChatMembersCount.swift */; };
+		OBJ_207 /* TelegramBot+getFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* TelegramBot+getFile.swift */; };
+		OBJ_208 /* TelegramBot+getGameHighScores.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* TelegramBot+getGameHighScores.swift */; };
+		OBJ_209 /* TelegramBot+getMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* TelegramBot+getMe.swift */; };
+		OBJ_210 /* TelegramBot+getUpdates+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* TelegramBot+getUpdates+Utils.swift */; };
+		OBJ_211 /* TelegramBot+getUpdates.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_38 /* TelegramBot+getUpdates.swift */; };
+		OBJ_212 /* TelegramBot+getUserProfilePhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* TelegramBot+getUserProfilePhotos.swift */; };
+		OBJ_213 /* TelegramBot+getWebhookInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* TelegramBot+getWebhookInfo.swift */; };
+		OBJ_214 /* TelegramBot+kickChatMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* TelegramBot+kickChatMember.swift */; };
+		OBJ_215 /* TelegramBot+leaveChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* TelegramBot+leaveChat.swift */; };
+		OBJ_216 /* TelegramBot+sendAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* TelegramBot+sendAudio.swift */; };
+		OBJ_217 /* TelegramBot+sendChatAction+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* TelegramBot+sendChatAction+Utils.swift */; };
+		OBJ_218 /* TelegramBot+sendChatAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* TelegramBot+sendChatAction.swift */; };
+		OBJ_219 /* TelegramBot+sendContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* TelegramBot+sendContact.swift */; };
+		OBJ_220 /* TelegramBot+sendDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* TelegramBot+sendDocument.swift */; };
+		OBJ_221 /* TelegramBot+sendGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* TelegramBot+sendGame.swift */; };
+		OBJ_222 /* TelegramBot+sendLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* TelegramBot+sendLocation.swift */; };
+		OBJ_223 /* TelegramBot+sendMessage+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* TelegramBot+sendMessage+Utils.swift */; };
+		OBJ_224 /* TelegramBot+sendMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* TelegramBot+sendMessage.swift */; };
+		OBJ_225 /* TelegramBot+sendPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* TelegramBot+sendPhoto.swift */; };
+		OBJ_226 /* TelegramBot+sendSticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* TelegramBot+sendSticker.swift */; };
+		OBJ_227 /* TelegramBot+sendVenue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* TelegramBot+sendVenue.swift */; };
+		OBJ_228 /* TelegramBot+sendVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* TelegramBot+sendVideo.swift */; };
+		OBJ_229 /* TelegramBot+sendVoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* TelegramBot+sendVoice.swift */; };
+		OBJ_230 /* TelegramBot+setGameScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* TelegramBot+setGameScore.swift */; };
+		OBJ_231 /* TelegramBot+setWebhook.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* TelegramBot+setWebhook.swift */; };
+		OBJ_232 /* TelegramBot+unbanChatMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* TelegramBot+unbanChatMember.swift */; };
+		OBJ_233 /* ChatId.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* ChatId.swift */; };
+		OBJ_234 /* FileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* FileInfo.swift */; };
+		OBJ_235 /* InlineQueryResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* InlineQueryResult.swift */; };
+		OBJ_236 /* JsonConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* JsonConvertible.swift */; };
+		OBJ_237 /* ReplyMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* ReplyMarkup.swift */; };
+		OBJ_238 /* Arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* Arguments.swift */; };
+		OBJ_239 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_68 /* Command.swift */; };
+		OBJ_240 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* ContentType.swift */; };
+		OBJ_241 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_70 /* Context.swift */; };
+		OBJ_242 /* Router+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_71 /* Router+Helpers.swift */; };
+		OBJ_243 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* Router.swift */; };
+		OBJ_244 /* TaskAssociatedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* TaskAssociatedData.swift */; };
+		OBJ_245 /* TelegramBot+Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* TelegramBot+Requests.swift */; };
+		OBJ_246 /* TelegramBot+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_75 /* TelegramBot+Utils.swift */; };
+		OBJ_247 /* TelegramBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_76 /* TelegramBot.swift */; };
+		OBJ_248 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_78 /* Animation.swift */; };
+		OBJ_249 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_79 /* Audio.swift */; };
+		OBJ_250 /* Bool+JsonConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_80 /* Bool+JsonConvertible.swift */; };
+		OBJ_251 /* CallbackGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_81 /* CallbackGame.swift */; };
+		OBJ_252 /* CallbackQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_82 /* CallbackQuery.swift */; };
+		OBJ_253 /* Chat+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_83 /* Chat+Utils.swift */; };
+		OBJ_254 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_84 /* Chat.swift */; };
+		OBJ_255 /* ChatMember+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_85 /* ChatMember+Utils.swift */; };
+		OBJ_256 /* ChatMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_86 /* ChatMember.swift */; };
+		OBJ_257 /* ChosenInlineResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_87 /* ChosenInlineResult.swift */; };
+		OBJ_258 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_88 /* Contact.swift */; };
+		OBJ_259 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_89 /* Document.swift */; };
+		OBJ_260 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_90 /* File.swift */; };
+		OBJ_261 /* ForceReply.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_91 /* ForceReply.swift */; };
+		OBJ_262 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_92 /* Game.swift */; };
+		OBJ_263 /* GameHighScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_93 /* GameHighScore.swift */; };
+		OBJ_264 /* InlineKeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_94 /* InlineKeyboardButton.swift */; };
+		OBJ_265 /* InlineKeyboardMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_95 /* InlineKeyboardMarkup.swift */; };
+		OBJ_266 /* InlineQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_96 /* InlineQuery.swift */; };
+		OBJ_267 /* InlineQueryResultArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_97 /* InlineQueryResultArticle.swift */; };
+		OBJ_268 /* InlineQueryResultAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_98 /* InlineQueryResultAudio.swift */; };
+		OBJ_269 /* InlineQueryResultCachedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_99 /* InlineQueryResultCachedAudio.swift */; };
+		OBJ_270 /* InlineQueryResultCachedDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_100 /* InlineQueryResultCachedDocument.swift */; };
+		OBJ_271 /* InlineQueryResultCachedGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_101 /* InlineQueryResultCachedGif.swift */; };
+		OBJ_272 /* InlineQueryResultCachedMpeg4Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_102 /* InlineQueryResultCachedMpeg4Gif.swift */; };
+		OBJ_273 /* InlineQueryResultCachedPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_103 /* InlineQueryResultCachedPhoto.swift */; };
+		OBJ_274 /* InlineQueryResultCachedSticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_104 /* InlineQueryResultCachedSticker.swift */; };
+		OBJ_275 /* InlineQueryResultCachedVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_105 /* InlineQueryResultCachedVideo.swift */; };
+		OBJ_276 /* InlineQueryResultCachedVoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_106 /* InlineQueryResultCachedVoice.swift */; };
+		OBJ_277 /* InlineQueryResultContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* InlineQueryResultContact.swift */; };
+		OBJ_278 /* InlineQueryResultDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_108 /* InlineQueryResultDocument.swift */; };
+		OBJ_279 /* InlineQueryResultGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_109 /* InlineQueryResultGame.swift */; };
+		OBJ_280 /* InlineQueryResultGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_110 /* InlineQueryResultGif.swift */; };
+		OBJ_281 /* InlineQueryResultLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_111 /* InlineQueryResultLocation.swift */; };
+		OBJ_282 /* InlineQueryResultMpeg4Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_112 /* InlineQueryResultMpeg4Gif.swift */; };
+		OBJ_283 /* InlineQueryResultPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_113 /* InlineQueryResultPhoto.swift */; };
+		OBJ_284 /* InlineQueryResultVenue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_114 /* InlineQueryResultVenue.swift */; };
+		OBJ_285 /* InlineQueryResultVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_115 /* InlineQueryResultVideo.swift */; };
+		OBJ_286 /* InlineQueryResultVoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_116 /* InlineQueryResultVoice.swift */; };
+		OBJ_287 /* InputContactMessageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_117 /* InputContactMessageContent.swift */; };
+		OBJ_288 /* InputFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_118 /* InputFile.swift */; };
+		OBJ_289 /* InputLocationMessageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_119 /* InputLocationMessageContent.swift */; };
+		OBJ_290 /* InputMessageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_120 /* InputMessageContent.swift */; };
+		OBJ_291 /* InputTextMessageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_121 /* InputTextMessageContent.swift */; };
+		OBJ_292 /* InputVenueMessageContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_122 /* InputVenueMessageContent.swift */; };
+		OBJ_293 /* Int+JsonConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_123 /* Int+JsonConvertible.swift */; };
+		OBJ_294 /* Int64+JsonConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_124 /* Int64+JsonConvertible.swift */; };
+		OBJ_295 /* JSON+JsonConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_125 /* JSON+JsonConvertible.swift */; };
+		OBJ_296 /* KeyboardButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_126 /* KeyboardButton.swift */; };
+		OBJ_297 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_127 /* Location.swift */; };
+		OBJ_298 /* Message+Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_128 /* Message+Command.swift */; };
+		OBJ_299 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_129 /* Message.swift */; };
+		OBJ_300 /* MessageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_130 /* MessageEntity.swift */; };
+		OBJ_301 /* MessageOrBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_131 /* MessageOrBool.swift */; };
+		OBJ_302 /* PhotoSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_132 /* PhotoSize.swift */; };
+		OBJ_303 /* ReplyKeyboardMarkup+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_133 /* ReplyKeyboardMarkup+Utils.swift */; };
+		OBJ_304 /* ReplyKeyboardMarkup.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_134 /* ReplyKeyboardMarkup.swift */; };
+		OBJ_305 /* ReplyKeyboardRemove.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_135 /* ReplyKeyboardRemove.swift */; };
+		OBJ_306 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_136 /* Response.swift */; };
+		OBJ_307 /* ResponseParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_137 /* ResponseParameters.swift */; };
+		OBJ_308 /* Sticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_138 /* Sticker.swift */; };
+		OBJ_309 /* String+JsonConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_139 /* String+JsonConvertible.swift */; };
+		OBJ_310 /* Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_140 /* Update.swift */; };
+		OBJ_311 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_141 /* User.swift */; };
+		OBJ_312 /* UserProfilePhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_142 /* UserProfilePhotos.swift */; };
+		OBJ_313 /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_143 /* Venue.swift */; };
+		OBJ_314 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_144 /* Video.swift */; };
+		OBJ_315 /* Voice.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_145 /* Voice.swift */; };
+		OBJ_316 /* WebhookInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_146 /* WebhookInfo.swift */; };
+		OBJ_317 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_147 /* Utils.swift */; };
+		OBJ_318 /* WriteCallbackData.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_148 /* WriteCallbackData.swift */; };
+		OBJ_320 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftyJSON::SwiftyJSON::Product" /* SwiftyJSON.framework */; };
+		OBJ_328 /* BlockingServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_151 /* BlockingServerTests.swift */; };
+		OBJ_329 /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_152 /* RequestTests.swift */; };
+		OBJ_330 /* RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_153 /* RouterTests.swift */; };
+		OBJ_331 /* TelegramBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_154 /* TelegramBotTests.swift */; };
+		OBJ_332 /* UrlencodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_155 /* UrlencodeTests.swift */; };
+		OBJ_334 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftyJSON::SwiftyJSON::Product" /* SwiftyJSON.framework */; };
+		OBJ_340 /* LclJSONSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_161 /* LclJSONSerialization.swift */; };
+		OBJ_341 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_162 /* SwiftyJSON.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5688655C201A787F006547C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftyJSON::SwiftyJSON";
+			remoteInfo = SwiftyJSON;
+		};
+		5688655D201A787F006547C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftyJSON::SwiftyJSON";
+			remoteInfo = SwiftyJSON;
+		};
+		5688655E201A7882006547C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "TelegramBotSDK::TelegramBotTests";
+			remoteInfo = TelegramBotTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5688655F201A7954006547C2 /* Scanner+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Scanner+Utils.swift"; sourceTree = "<group>"; };
+		56886561201A7A10006547C2 /* Scanner+Compatibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Scanner+Compatibility.swift"; sourceTree = "<group>"; };
+		OBJ_100 /* InlineQueryResultCachedDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQueryResultCachedDocument.swift; sourceTree = "<group>"; };
+		OBJ_101 /* InlineQueryResultCachedGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQueryResultCachedGif.swift; sourceTree = "<group>"; };
+		OBJ_102 /* InlineQueryResultCachedMpeg4Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQueryResultCachedMpeg4Gif.swift; sourceTree = "<group>"; };
+		OBJ_103 /* InlineQueryResultCachedPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQueryResultCachedPhoto.swift; sourceTree = "<group>"; };
+		OBJ_104 /* InlineQueryResultCachedSticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQueryResultCachedSticker.swift; sourceTree = "<group>"; };
+		OBJ_105 /* InlineQueryResultCachedVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQueryResultCachedVideo.swift; sourceTree = "<group>"; };
+		OBJ_106 /* InlineQueryResultCachedVoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQueryResultCachedVoice.swift; sourceTree = "<group>"; };
+		OBJ_107 /* InlineQueryResultContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQueryResultContact.swift; sourceTree = "<group>"; };
+		OBJ_108 /* InlineQueryResultDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQueryResultDocument.swift; sourceTree = "<group>"; };
+		OBJ_109 /* InlineQueryResultGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQueryResultGame.swift; sourceTree = "<group>"; };
+		OBJ_11 /* JSON+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSON+Utils.swift"; sourceTree = "<group>"; };
+		OBJ_110 /* InlineQueryResultGif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQueryResultGif.swift; sourceTree = "<group>"; };
+		OBJ_111 /* InlineQueryResultLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQueryResultLocation.swift; sourceTree = "<group>"; };
+		OBJ_112 /* InlineQueryResultMpeg4Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQueryResultMpeg4Gif.swift; sourceTree = "<group>"; };
+		OBJ_113 /* InlineQueryResultPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQueryResultPhoto.swift; sourceTree = "<group>"; };
+		OBJ_114 /* InlineQueryResultVenue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQueryResultVenue.swift; sourceTree = "<group>"; };
+		OBJ_115 /* InlineQueryResultVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQueryResultVideo.swift; sourceTree = "<group>"; };
+		OBJ_116 /* InlineQueryResultVoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQueryResultVoice.swift; sourceTree = "<group>"; };
+		OBJ_117 /* InputContactMessageContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputContactMessageContent.swift; sourceTree = "<group>"; };
+		OBJ_118 /* InputFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputFile.swift; sourceTree = "<group>"; };
+		OBJ_119 /* InputLocationMessageContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputLocationMessageContent.swift; sourceTree = "<group>"; };
+		OBJ_12 /* NSRunLoop+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSRunLoop+Utils.swift"; sourceTree = "<group>"; };
+		OBJ_120 /* InputMessageContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputMessageContent.swift; sourceTree = "<group>"; };
+		OBJ_121 /* InputTextMessageContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextMessageContent.swift; sourceTree = "<group>"; };
+		OBJ_122 /* InputVenueMessageContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputVenueMessageContent.swift; sourceTree = "<group>"; };
+		OBJ_123 /* Int+JsonConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+JsonConvertible.swift"; sourceTree = "<group>"; };
+		OBJ_124 /* Int64+JsonConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int64+JsonConvertible.swift"; sourceTree = "<group>"; };
+		OBJ_125 /* JSON+JsonConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JSON+JsonConvertible.swift"; sourceTree = "<group>"; };
+		OBJ_126 /* KeyboardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardButton.swift; sourceTree = "<group>"; };
+		OBJ_127 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		OBJ_128 /* Message+Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Message+Command.swift"; sourceTree = "<group>"; };
+		OBJ_129 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		OBJ_13 /* Optional+Unwrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Unwrap.swift"; sourceTree = "<group>"; };
+		OBJ_130 /* MessageEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageEntity.swift; sourceTree = "<group>"; };
+		OBJ_131 /* MessageOrBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageOrBool.swift; sourceTree = "<group>"; };
+		OBJ_132 /* PhotoSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSize.swift; sourceTree = "<group>"; };
+		OBJ_133 /* ReplyKeyboardMarkup+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReplyKeyboardMarkup+Utils.swift"; sourceTree = "<group>"; };
+		OBJ_134 /* ReplyKeyboardMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyKeyboardMarkup.swift; sourceTree = "<group>"; };
+		OBJ_135 /* ReplyKeyboardRemove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyKeyboardRemove.swift; sourceTree = "<group>"; };
+		OBJ_136 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		OBJ_137 /* ResponseParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseParameters.swift; sourceTree = "<group>"; };
+		OBJ_138 /* Sticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sticker.swift; sourceTree = "<group>"; };
+		OBJ_139 /* String+JsonConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+JsonConvertible.swift"; sourceTree = "<group>"; };
+		OBJ_14 /* String+ExtractBotCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ExtractBotCommand.swift"; sourceTree = "<group>"; };
+		OBJ_140 /* Update.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Update.swift; sourceTree = "<group>"; };
+		OBJ_141 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		OBJ_142 /* UserProfilePhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfilePhotos.swift; sourceTree = "<group>"; };
+		OBJ_143 /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		OBJ_144 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		OBJ_145 /* Voice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voice.swift; sourceTree = "<group>"; };
+		OBJ_146 /* WebhookInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebhookInfo.swift; sourceTree = "<group>"; };
+		OBJ_147 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		OBJ_148 /* WriteCallbackData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WriteCallbackData.swift; sourceTree = "<group>"; };
+		OBJ_15 /* String+HTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+HTTP.swift"; sourceTree = "<group>"; };
+		OBJ_151 /* BlockingServerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockingServerTests.swift; sourceTree = "<group>"; };
+		OBJ_152 /* RequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTests.swift; sourceTree = "<group>"; };
+		OBJ_153 /* RouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterTests.swift; sourceTree = "<group>"; };
+		OBJ_154 /* TelegramBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramBotTests.swift; sourceTree = "<group>"; };
+		OBJ_155 /* UrlencodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlencodeTests.swift; sourceTree = "<group>"; };
+		OBJ_156 /* API */ = {isa = PBXFileReference; lastKnownFileType = folder; path = API; sourceTree = SOURCE_ROOT; };
+		OBJ_157 /* Examples */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Examples; sourceTree = SOURCE_ROOT; };
+		OBJ_16 /* String+Indent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Indent.swift"; sourceTree = "<group>"; };
+		OBJ_160 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/pavelgerashchenko/Desktop/Work/OpenSource/telegram-bot-swift/.build/checkouts/SwiftyJSON.git-4006244013968804345/Package.swift"; sourceTree = "<group>"; };
+		OBJ_161 /* LclJSONSerialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LclJSONSerialization.swift; sourceTree = "<group>"; };
+		OBJ_162 /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		OBJ_17 /* String+Trim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Trim.swift"; sourceTree = "<group>"; };
+		OBJ_18 /* String+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Utils.swift"; sourceTree = "<group>"; };
+		OBJ_19 /* DataTaskError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTaskError.swift; sourceTree = "<group>"; };
+		OBJ_20 /* DictionaryUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryUtils.swift; sourceTree = "<group>"; };
+		OBJ_21 /* HTTPUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPUtils.swift; sourceTree = "<group>"; };
+		OBJ_23 /* TelegramBot+answerCallbackQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+answerCallbackQuery.swift"; sourceTree = "<group>"; };
+		OBJ_24 /* TelegramBot+answerInlineQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+answerInlineQuery.swift"; sourceTree = "<group>"; };
+		OBJ_25 /* TelegramBot+deleteWebhook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+deleteWebhook.swift"; sourceTree = "<group>"; };
+		OBJ_26 /* TelegramBot+editMessageCaption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+editMessageCaption.swift"; sourceTree = "<group>"; };
+		OBJ_27 /* TelegramBot+editMessageReplyMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+editMessageReplyMarkup.swift"; sourceTree = "<group>"; };
+		OBJ_28 /* TelegramBot+editMessageText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+editMessageText.swift"; sourceTree = "<group>"; };
+		OBJ_29 /* TelegramBot+forwardMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+forwardMessage.swift"; sourceTree = "<group>"; };
+		OBJ_30 /* TelegramBot+getChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+getChat.swift"; sourceTree = "<group>"; };
+		OBJ_31 /* TelegramBot+getChatAdministrators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+getChatAdministrators.swift"; sourceTree = "<group>"; };
+		OBJ_32 /* TelegramBot+getChatMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+getChatMember.swift"; sourceTree = "<group>"; };
+		OBJ_33 /* TelegramBot+getChatMembersCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+getChatMembersCount.swift"; sourceTree = "<group>"; };
+		OBJ_34 /* TelegramBot+getFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+getFile.swift"; sourceTree = "<group>"; };
+		OBJ_35 /* TelegramBot+getGameHighScores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+getGameHighScores.swift"; sourceTree = "<group>"; };
+		OBJ_36 /* TelegramBot+getMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+getMe.swift"; sourceTree = "<group>"; };
+		OBJ_37 /* TelegramBot+getUpdates+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+getUpdates+Utils.swift"; sourceTree = "<group>"; };
+		OBJ_38 /* TelegramBot+getUpdates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+getUpdates.swift"; sourceTree = "<group>"; };
+		OBJ_39 /* TelegramBot+getUserProfilePhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+getUserProfilePhotos.swift"; sourceTree = "<group>"; };
+		OBJ_40 /* TelegramBot+getWebhookInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+getWebhookInfo.swift"; sourceTree = "<group>"; };
+		OBJ_41 /* TelegramBot+kickChatMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+kickChatMember.swift"; sourceTree = "<group>"; };
+		OBJ_42 /* TelegramBot+leaveChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+leaveChat.swift"; sourceTree = "<group>"; };
+		OBJ_43 /* TelegramBot+sendAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+sendAudio.swift"; sourceTree = "<group>"; };
+		OBJ_44 /* TelegramBot+sendChatAction+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+sendChatAction+Utils.swift"; sourceTree = "<group>"; };
+		OBJ_45 /* TelegramBot+sendChatAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+sendChatAction.swift"; sourceTree = "<group>"; };
+		OBJ_46 /* TelegramBot+sendContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+sendContact.swift"; sourceTree = "<group>"; };
+		OBJ_47 /* TelegramBot+sendDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+sendDocument.swift"; sourceTree = "<group>"; };
+		OBJ_48 /* TelegramBot+sendGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+sendGame.swift"; sourceTree = "<group>"; };
+		OBJ_49 /* TelegramBot+sendLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+sendLocation.swift"; sourceTree = "<group>"; };
+		OBJ_50 /* TelegramBot+sendMessage+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+sendMessage+Utils.swift"; sourceTree = "<group>"; };
+		OBJ_51 /* TelegramBot+sendMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+sendMessage.swift"; sourceTree = "<group>"; };
+		OBJ_52 /* TelegramBot+sendPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+sendPhoto.swift"; sourceTree = "<group>"; };
+		OBJ_53 /* TelegramBot+sendSticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+sendSticker.swift"; sourceTree = "<group>"; };
+		OBJ_54 /* TelegramBot+sendVenue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+sendVenue.swift"; sourceTree = "<group>"; };
+		OBJ_55 /* TelegramBot+sendVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+sendVideo.swift"; sourceTree = "<group>"; };
+		OBJ_56 /* TelegramBot+sendVoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+sendVoice.swift"; sourceTree = "<group>"; };
+		OBJ_57 /* TelegramBot+setGameScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+setGameScore.swift"; sourceTree = "<group>"; };
+		OBJ_58 /* TelegramBot+setWebhook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+setWebhook.swift"; sourceTree = "<group>"; };
+		OBJ_59 /* TelegramBot+unbanChatMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+unbanChatMember.swift"; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_61 /* ChatId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatId.swift; sourceTree = "<group>"; };
+		OBJ_62 /* FileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileInfo.swift; sourceTree = "<group>"; };
+		OBJ_63 /* InlineQueryResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQueryResult.swift; sourceTree = "<group>"; };
+		OBJ_64 /* JsonConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonConvertible.swift; sourceTree = "<group>"; };
+		OBJ_65 /* ReplyMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyMarkup.swift; sourceTree = "<group>"; };
+		OBJ_67 /* Arguments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arguments.swift; sourceTree = "<group>"; };
+		OBJ_68 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		OBJ_69 /* ContentType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentType.swift; sourceTree = "<group>"; };
+		OBJ_70 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
+		OBJ_71 /* Router+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Router+Helpers.swift"; sourceTree = "<group>"; };
+		OBJ_72 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		OBJ_73 /* TaskAssociatedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskAssociatedData.swift; sourceTree = "<group>"; };
+		OBJ_74 /* TelegramBot+Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+Requests.swift"; sourceTree = "<group>"; };
+		OBJ_75 /* TelegramBot+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelegramBot+Utils.swift"; sourceTree = "<group>"; };
+		OBJ_76 /* TelegramBot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramBot.swift; sourceTree = "<group>"; };
+		OBJ_78 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		OBJ_79 /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		OBJ_80 /* Bool+JsonConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+JsonConvertible.swift"; sourceTree = "<group>"; };
+		OBJ_81 /* CallbackGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallbackGame.swift; sourceTree = "<group>"; };
+		OBJ_82 /* CallbackQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallbackQuery.swift; sourceTree = "<group>"; };
+		OBJ_83 /* Chat+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Chat+Utils.swift"; sourceTree = "<group>"; };
+		OBJ_84 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		OBJ_85 /* ChatMember+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatMember+Utils.swift"; sourceTree = "<group>"; };
+		OBJ_86 /* ChatMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMember.swift; sourceTree = "<group>"; };
+		OBJ_87 /* ChosenInlineResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChosenInlineResult.swift; sourceTree = "<group>"; };
+		OBJ_88 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		OBJ_89 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		OBJ_9 /* BotName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotName.swift; sourceTree = "<group>"; };
+		OBJ_90 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		OBJ_91 /* ForceReply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForceReply.swift; sourceTree = "<group>"; };
+		OBJ_92 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		OBJ_93 /* GameHighScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHighScore.swift; sourceTree = "<group>"; };
+		OBJ_94 /* InlineKeyboardButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineKeyboardButton.swift; sourceTree = "<group>"; };
+		OBJ_95 /* InlineKeyboardMarkup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineKeyboardMarkup.swift; sourceTree = "<group>"; };
+		OBJ_96 /* InlineQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQuery.swift; sourceTree = "<group>"; };
+		OBJ_97 /* InlineQueryResultArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQueryResultArticle.swift; sourceTree = "<group>"; };
+		OBJ_98 /* InlineQueryResultAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQueryResultAudio.swift; sourceTree = "<group>"; };
+		OBJ_99 /* InlineQueryResultCachedAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineQueryResultCachedAudio.swift; sourceTree = "<group>"; };
+		"SwiftyJSON::SwiftyJSON::Product" /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"TelegramBotSDK::TelegramBotSDK::Product" /* TelegramBotSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TelegramBotSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"TelegramBotSDK::TelegramBotTests::Product" /* TelegramBotTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = TelegramBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_320 /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_333 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_334 /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_342 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_10 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* JSON+Utils.swift */,
+				OBJ_12 /* NSRunLoop+Utils.swift */,
+				OBJ_13 /* Optional+Unwrap.swift */,
+				OBJ_14 /* String+ExtractBotCommand.swift */,
+				OBJ_15 /* String+HTTP.swift */,
+				OBJ_16 /* String+Indent.swift */,
+				OBJ_17 /* String+Trim.swift */,
+				OBJ_18 /* String+Utils.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		OBJ_149 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_150 /* TelegramBotTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_150 /* TelegramBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_151 /* BlockingServerTests.swift */,
+				OBJ_152 /* RequestTests.swift */,
+				OBJ_153 /* RouterTests.swift */,
+				OBJ_154 /* TelegramBotTests.swift */,
+				OBJ_155 /* UrlencodeTests.swift */,
+			);
+			name = TelegramBotTests;
+			path = Tests/TelegramBotTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_158 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_159 /* SwiftyJSON 15.0.6 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_159 /* SwiftyJSON 15.0.6 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_160 /* Package.swift */,
+				OBJ_161 /* LclJSONSerialization.swift */,
+				OBJ_162 /* SwiftyJSON.swift */,
+			);
+			name = "SwiftyJSON 15.0.6";
+			path = ".build/checkouts/SwiftyJSON.git-4006244013968804345/Source";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_163 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"TelegramBotSDK::TelegramBotSDK::Product" /* TelegramBotSDK.framework */,
+				"TelegramBotSDK::TelegramBotTests::Product" /* TelegramBotTests.xctest */,
+				"SwiftyJSON::SwiftyJSON::Product" /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_22 /* Methods */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_23 /* TelegramBot+answerCallbackQuery.swift */,
+				OBJ_24 /* TelegramBot+answerInlineQuery.swift */,
+				OBJ_25 /* TelegramBot+deleteWebhook.swift */,
+				OBJ_26 /* TelegramBot+editMessageCaption.swift */,
+				OBJ_27 /* TelegramBot+editMessageReplyMarkup.swift */,
+				OBJ_28 /* TelegramBot+editMessageText.swift */,
+				OBJ_29 /* TelegramBot+forwardMessage.swift */,
+				OBJ_30 /* TelegramBot+getChat.swift */,
+				OBJ_31 /* TelegramBot+getChatAdministrators.swift */,
+				OBJ_32 /* TelegramBot+getChatMember.swift */,
+				OBJ_33 /* TelegramBot+getChatMembersCount.swift */,
+				OBJ_34 /* TelegramBot+getFile.swift */,
+				OBJ_35 /* TelegramBot+getGameHighScores.swift */,
+				OBJ_36 /* TelegramBot+getMe.swift */,
+				OBJ_37 /* TelegramBot+getUpdates+Utils.swift */,
+				OBJ_38 /* TelegramBot+getUpdates.swift */,
+				OBJ_39 /* TelegramBot+getUserProfilePhotos.swift */,
+				OBJ_40 /* TelegramBot+getWebhookInfo.swift */,
+				OBJ_41 /* TelegramBot+kickChatMember.swift */,
+				OBJ_42 /* TelegramBot+leaveChat.swift */,
+				OBJ_43 /* TelegramBot+sendAudio.swift */,
+				OBJ_44 /* TelegramBot+sendChatAction+Utils.swift */,
+				OBJ_45 /* TelegramBot+sendChatAction.swift */,
+				OBJ_46 /* TelegramBot+sendContact.swift */,
+				OBJ_47 /* TelegramBot+sendDocument.swift */,
+				OBJ_48 /* TelegramBot+sendGame.swift */,
+				OBJ_49 /* TelegramBot+sendLocation.swift */,
+				OBJ_50 /* TelegramBot+sendMessage+Utils.swift */,
+				OBJ_51 /* TelegramBot+sendMessage.swift */,
+				OBJ_52 /* TelegramBot+sendPhoto.swift */,
+				OBJ_53 /* TelegramBot+sendSticker.swift */,
+				OBJ_54 /* TelegramBot+sendVenue.swift */,
+				OBJ_55 /* TelegramBot+sendVideo.swift */,
+				OBJ_56 /* TelegramBot+sendVoice.swift */,
+				OBJ_57 /* TelegramBot+setGameScore.swift */,
+				OBJ_58 /* TelegramBot+setWebhook.swift */,
+				OBJ_59 /* TelegramBot+unbanChatMember.swift */,
+			);
+			path = Methods;
+			sourceTree = "<group>";
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_149 /* Tests */,
+				OBJ_156 /* API */,
+				OBJ_157 /* Examples */,
+				OBJ_158 /* Dependencies */,
+				OBJ_163 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_60 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_61 /* ChatId.swift */,
+				OBJ_62 /* FileInfo.swift */,
+				OBJ_63 /* InlineQueryResult.swift */,
+				OBJ_64 /* JsonConvertible.swift */,
+				OBJ_65 /* ReplyMarkup.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		OBJ_66 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_67 /* Arguments.swift */,
+				OBJ_68 /* Command.swift */,
+				OBJ_69 /* ContentType.swift */,
+				OBJ_70 /* Context.swift */,
+				OBJ_71 /* Router+Helpers.swift */,
+				OBJ_72 /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* TelegramBotSDK */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_77 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_78 /* Animation.swift */,
+				OBJ_79 /* Audio.swift */,
+				OBJ_80 /* Bool+JsonConvertible.swift */,
+				OBJ_81 /* CallbackGame.swift */,
+				OBJ_82 /* CallbackQuery.swift */,
+				OBJ_83 /* Chat+Utils.swift */,
+				OBJ_84 /* Chat.swift */,
+				OBJ_85 /* ChatMember+Utils.swift */,
+				OBJ_86 /* ChatMember.swift */,
+				OBJ_87 /* ChosenInlineResult.swift */,
+				OBJ_88 /* Contact.swift */,
+				OBJ_89 /* Document.swift */,
+				OBJ_90 /* File.swift */,
+				OBJ_91 /* ForceReply.swift */,
+				OBJ_92 /* Game.swift */,
+				OBJ_93 /* GameHighScore.swift */,
+				OBJ_94 /* InlineKeyboardButton.swift */,
+				OBJ_95 /* InlineKeyboardMarkup.swift */,
+				OBJ_96 /* InlineQuery.swift */,
+				OBJ_97 /* InlineQueryResultArticle.swift */,
+				OBJ_98 /* InlineQueryResultAudio.swift */,
+				OBJ_99 /* InlineQueryResultCachedAudio.swift */,
+				OBJ_100 /* InlineQueryResultCachedDocument.swift */,
+				OBJ_101 /* InlineQueryResultCachedGif.swift */,
+				OBJ_102 /* InlineQueryResultCachedMpeg4Gif.swift */,
+				OBJ_103 /* InlineQueryResultCachedPhoto.swift */,
+				OBJ_104 /* InlineQueryResultCachedSticker.swift */,
+				OBJ_105 /* InlineQueryResultCachedVideo.swift */,
+				OBJ_106 /* InlineQueryResultCachedVoice.swift */,
+				OBJ_107 /* InlineQueryResultContact.swift */,
+				OBJ_108 /* InlineQueryResultDocument.swift */,
+				OBJ_109 /* InlineQueryResultGame.swift */,
+				OBJ_110 /* InlineQueryResultGif.swift */,
+				OBJ_111 /* InlineQueryResultLocation.swift */,
+				OBJ_112 /* InlineQueryResultMpeg4Gif.swift */,
+				OBJ_113 /* InlineQueryResultPhoto.swift */,
+				OBJ_114 /* InlineQueryResultVenue.swift */,
+				OBJ_115 /* InlineQueryResultVideo.swift */,
+				OBJ_116 /* InlineQueryResultVoice.swift */,
+				OBJ_117 /* InputContactMessageContent.swift */,
+				OBJ_118 /* InputFile.swift */,
+				OBJ_119 /* InputLocationMessageContent.swift */,
+				OBJ_120 /* InputMessageContent.swift */,
+				OBJ_121 /* InputTextMessageContent.swift */,
+				OBJ_122 /* InputVenueMessageContent.swift */,
+				OBJ_123 /* Int+JsonConvertible.swift */,
+				OBJ_124 /* Int64+JsonConvertible.swift */,
+				OBJ_125 /* JSON+JsonConvertible.swift */,
+				OBJ_126 /* KeyboardButton.swift */,
+				OBJ_127 /* Location.swift */,
+				OBJ_128 /* Message+Command.swift */,
+				OBJ_129 /* Message.swift */,
+				OBJ_130 /* MessageEntity.swift */,
+				OBJ_131 /* MessageOrBool.swift */,
+				OBJ_132 /* PhotoSize.swift */,
+				OBJ_133 /* ReplyKeyboardMarkup+Utils.swift */,
+				OBJ_134 /* ReplyKeyboardMarkup.swift */,
+				OBJ_135 /* ReplyKeyboardRemove.swift */,
+				OBJ_136 /* Response.swift */,
+				OBJ_137 /* ResponseParameters.swift */,
+				OBJ_138 /* Sticker.swift */,
+				OBJ_139 /* String+JsonConvertible.swift */,
+				OBJ_140 /* Update.swift */,
+				OBJ_141 /* User.swift */,
+				OBJ_142 /* UserProfilePhotos.swift */,
+				OBJ_143 /* Venue.swift */,
+				OBJ_144 /* Video.swift */,
+				OBJ_145 /* Voice.swift */,
+				OBJ_146 /* WebhookInfo.swift */,
+			);
+			path = Types;
+			sourceTree = "<group>";
+		};
+		OBJ_8 /* TelegramBotSDK */ = {
+			isa = PBXGroup;
+			children = (
+				56886561201A7A10006547C2 /* Scanner+Compatibility.swift */,
+				5688655F201A7954006547C2 /* Scanner+Utils.swift */,
+				OBJ_9 /* BotName.swift */,
+				OBJ_10 /* Categories */,
+				OBJ_19 /* DataTaskError.swift */,
+				OBJ_20 /* DictionaryUtils.swift */,
+				OBJ_21 /* HTTPUtils.swift */,
+				OBJ_22 /* Methods */,
+				OBJ_60 /* Protocols */,
+				OBJ_66 /* Router */,
+				OBJ_73 /* TaskAssociatedData.swift */,
+				OBJ_74 /* TelegramBot+Requests.swift */,
+				OBJ_75 /* TelegramBot+Utils.swift */,
+				OBJ_76 /* TelegramBot.swift */,
+				OBJ_77 /* Types */,
+				OBJ_147 /* Utils.swift */,
+				OBJ_148 /* WriteCallbackData.swift */,
+			);
+			name = TelegramBotSDK;
+			path = Sources/TelegramBotSDK;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"SwiftyJSON::SwiftPMPackageDescription" /* SwiftyJSONPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_174 /* Build configuration list for PBXNativeTarget "SwiftyJSONPackageDescription" */;
+			buildPhases = (
+				OBJ_177 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSONPackageDescription;
+			productName = SwiftyJSONPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftyJSON::SwiftyJSON" /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_336 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				OBJ_339 /* Sources */,
+				OBJ_342 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = "SwiftyJSON::SwiftyJSON::Product" /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"TelegramBotSDK::SwiftPMPackageDescription" /* TelegramBotSDKPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_168 /* Build configuration list for PBXNativeTarget "TelegramBotSDKPackageDescription" */;
+			buildPhases = (
+				OBJ_171 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelegramBotSDKPackageDescription;
+			productName = TelegramBotSDKPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"TelegramBotSDK::TelegramBotSDK" /* TelegramBotSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_180 /* Build configuration list for PBXNativeTarget "TelegramBotSDK" */;
+			buildPhases = (
+				OBJ_183 /* Sources */,
+				OBJ_319 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_321 /* PBXTargetDependency */,
+			);
+			name = TelegramBotSDK;
+			productName = TelegramBotSDK;
+			productReference = "TelegramBotSDK::TelegramBotSDK::Product" /* TelegramBotSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"TelegramBotSDK::TelegramBotTests" /* TelegramBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_324 /* Build configuration list for PBXNativeTarget "TelegramBotTests" */;
+			buildPhases = (
+				OBJ_327 /* Sources */,
+				OBJ_333 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_335 /* PBXTargetDependency */,
+			);
+			name = TelegramBotTests;
+			productName = TelegramBotTests;
+			productReference = "TelegramBotSDK::TelegramBotTests::Product" /* TelegramBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "TelegramBotSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_163 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"TelegramBotSDK::SwiftPMPackageDescription" /* TelegramBotSDKPackageDescription */,
+				"SwiftyJSON::SwiftPMPackageDescription" /* SwiftyJSONPackageDescription */,
+				"TelegramBotSDK::TelegramBotSDK" /* TelegramBotSDK */,
+				"TelegramBotSDK::TelegramBotTests" /* TelegramBotTests */,
+				"SwiftyJSON::SwiftyJSON" /* SwiftyJSON */,
+				"TelegramBotSDK::TelegramBotSDKPackageTests::ProductTarget" /* TelegramBotSDKPackageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_171 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_172 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_178 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_184 /* BotName.swift in Sources */,
+				OBJ_185 /* JSON+Utils.swift in Sources */,
+				OBJ_186 /* NSRunLoop+Utils.swift in Sources */,
+				OBJ_187 /* Optional+Unwrap.swift in Sources */,
+				OBJ_188 /* String+ExtractBotCommand.swift in Sources */,
+				OBJ_189 /* String+HTTP.swift in Sources */,
+				OBJ_190 /* String+Indent.swift in Sources */,
+				OBJ_191 /* String+Trim.swift in Sources */,
+				OBJ_192 /* String+Utils.swift in Sources */,
+				OBJ_193 /* DataTaskError.swift in Sources */,
+				OBJ_194 /* DictionaryUtils.swift in Sources */,
+				OBJ_195 /* HTTPUtils.swift in Sources */,
+				OBJ_196 /* TelegramBot+answerCallbackQuery.swift in Sources */,
+				OBJ_197 /* TelegramBot+answerInlineQuery.swift in Sources */,
+				OBJ_198 /* TelegramBot+deleteWebhook.swift in Sources */,
+				OBJ_199 /* TelegramBot+editMessageCaption.swift in Sources */,
+				OBJ_200 /* TelegramBot+editMessageReplyMarkup.swift in Sources */,
+				OBJ_201 /* TelegramBot+editMessageText.swift in Sources */,
+				OBJ_202 /* TelegramBot+forwardMessage.swift in Sources */,
+				OBJ_203 /* TelegramBot+getChat.swift in Sources */,
+				56886560201A7954006547C2 /* Scanner+Utils.swift in Sources */,
+				OBJ_204 /* TelegramBot+getChatAdministrators.swift in Sources */,
+				OBJ_205 /* TelegramBot+getChatMember.swift in Sources */,
+				OBJ_206 /* TelegramBot+getChatMembersCount.swift in Sources */,
+				OBJ_207 /* TelegramBot+getFile.swift in Sources */,
+				OBJ_208 /* TelegramBot+getGameHighScores.swift in Sources */,
+				OBJ_209 /* TelegramBot+getMe.swift in Sources */,
+				OBJ_210 /* TelegramBot+getUpdates+Utils.swift in Sources */,
+				OBJ_211 /* TelegramBot+getUpdates.swift in Sources */,
+				OBJ_212 /* TelegramBot+getUserProfilePhotos.swift in Sources */,
+				OBJ_213 /* TelegramBot+getWebhookInfo.swift in Sources */,
+				OBJ_214 /* TelegramBot+kickChatMember.swift in Sources */,
+				OBJ_215 /* TelegramBot+leaveChat.swift in Sources */,
+				OBJ_216 /* TelegramBot+sendAudio.swift in Sources */,
+				OBJ_217 /* TelegramBot+sendChatAction+Utils.swift in Sources */,
+				OBJ_218 /* TelegramBot+sendChatAction.swift in Sources */,
+				OBJ_219 /* TelegramBot+sendContact.swift in Sources */,
+				OBJ_220 /* TelegramBot+sendDocument.swift in Sources */,
+				OBJ_221 /* TelegramBot+sendGame.swift in Sources */,
+				OBJ_222 /* TelegramBot+sendLocation.swift in Sources */,
+				OBJ_223 /* TelegramBot+sendMessage+Utils.swift in Sources */,
+				OBJ_224 /* TelegramBot+sendMessage.swift in Sources */,
+				OBJ_225 /* TelegramBot+sendPhoto.swift in Sources */,
+				OBJ_226 /* TelegramBot+sendSticker.swift in Sources */,
+				OBJ_227 /* TelegramBot+sendVenue.swift in Sources */,
+				OBJ_228 /* TelegramBot+sendVideo.swift in Sources */,
+				OBJ_229 /* TelegramBot+sendVoice.swift in Sources */,
+				OBJ_230 /* TelegramBot+setGameScore.swift in Sources */,
+				OBJ_231 /* TelegramBot+setWebhook.swift in Sources */,
+				OBJ_232 /* TelegramBot+unbanChatMember.swift in Sources */,
+				OBJ_233 /* ChatId.swift in Sources */,
+				OBJ_234 /* FileInfo.swift in Sources */,
+				OBJ_235 /* InlineQueryResult.swift in Sources */,
+				OBJ_236 /* JsonConvertible.swift in Sources */,
+				OBJ_237 /* ReplyMarkup.swift in Sources */,
+				OBJ_238 /* Arguments.swift in Sources */,
+				OBJ_239 /* Command.swift in Sources */,
+				OBJ_240 /* ContentType.swift in Sources */,
+				OBJ_241 /* Context.swift in Sources */,
+				OBJ_242 /* Router+Helpers.swift in Sources */,
+				OBJ_243 /* Router.swift in Sources */,
+				OBJ_244 /* TaskAssociatedData.swift in Sources */,
+				OBJ_245 /* TelegramBot+Requests.swift in Sources */,
+				OBJ_246 /* TelegramBot+Utils.swift in Sources */,
+				OBJ_247 /* TelegramBot.swift in Sources */,
+				OBJ_248 /* Animation.swift in Sources */,
+				OBJ_249 /* Audio.swift in Sources */,
+				OBJ_250 /* Bool+JsonConvertible.swift in Sources */,
+				OBJ_251 /* CallbackGame.swift in Sources */,
+				OBJ_252 /* CallbackQuery.swift in Sources */,
+				OBJ_253 /* Chat+Utils.swift in Sources */,
+				OBJ_254 /* Chat.swift in Sources */,
+				OBJ_255 /* ChatMember+Utils.swift in Sources */,
+				OBJ_256 /* ChatMember.swift in Sources */,
+				OBJ_257 /* ChosenInlineResult.swift in Sources */,
+				OBJ_258 /* Contact.swift in Sources */,
+				OBJ_259 /* Document.swift in Sources */,
+				OBJ_260 /* File.swift in Sources */,
+				OBJ_261 /* ForceReply.swift in Sources */,
+				OBJ_262 /* Game.swift in Sources */,
+				OBJ_263 /* GameHighScore.swift in Sources */,
+				OBJ_264 /* InlineKeyboardButton.swift in Sources */,
+				OBJ_265 /* InlineKeyboardMarkup.swift in Sources */,
+				OBJ_266 /* InlineQuery.swift in Sources */,
+				OBJ_267 /* InlineQueryResultArticle.swift in Sources */,
+				OBJ_268 /* InlineQueryResultAudio.swift in Sources */,
+				OBJ_269 /* InlineQueryResultCachedAudio.swift in Sources */,
+				OBJ_270 /* InlineQueryResultCachedDocument.swift in Sources */,
+				OBJ_271 /* InlineQueryResultCachedGif.swift in Sources */,
+				OBJ_272 /* InlineQueryResultCachedMpeg4Gif.swift in Sources */,
+				OBJ_273 /* InlineQueryResultCachedPhoto.swift in Sources */,
+				OBJ_274 /* InlineQueryResultCachedSticker.swift in Sources */,
+				OBJ_275 /* InlineQueryResultCachedVideo.swift in Sources */,
+				OBJ_276 /* InlineQueryResultCachedVoice.swift in Sources */,
+				OBJ_277 /* InlineQueryResultContact.swift in Sources */,
+				OBJ_278 /* InlineQueryResultDocument.swift in Sources */,
+				OBJ_279 /* InlineQueryResultGame.swift in Sources */,
+				OBJ_280 /* InlineQueryResultGif.swift in Sources */,
+				OBJ_281 /* InlineQueryResultLocation.swift in Sources */,
+				56886562201A7A11006547C2 /* Scanner+Compatibility.swift in Sources */,
+				OBJ_282 /* InlineQueryResultMpeg4Gif.swift in Sources */,
+				OBJ_283 /* InlineQueryResultPhoto.swift in Sources */,
+				OBJ_284 /* InlineQueryResultVenue.swift in Sources */,
+				OBJ_285 /* InlineQueryResultVideo.swift in Sources */,
+				OBJ_286 /* InlineQueryResultVoice.swift in Sources */,
+				OBJ_287 /* InputContactMessageContent.swift in Sources */,
+				OBJ_288 /* InputFile.swift in Sources */,
+				OBJ_289 /* InputLocationMessageContent.swift in Sources */,
+				OBJ_290 /* InputMessageContent.swift in Sources */,
+				OBJ_291 /* InputTextMessageContent.swift in Sources */,
+				OBJ_292 /* InputVenueMessageContent.swift in Sources */,
+				OBJ_293 /* Int+JsonConvertible.swift in Sources */,
+				OBJ_294 /* Int64+JsonConvertible.swift in Sources */,
+				OBJ_295 /* JSON+JsonConvertible.swift in Sources */,
+				OBJ_296 /* KeyboardButton.swift in Sources */,
+				OBJ_297 /* Location.swift in Sources */,
+				OBJ_298 /* Message+Command.swift in Sources */,
+				OBJ_299 /* Message.swift in Sources */,
+				OBJ_300 /* MessageEntity.swift in Sources */,
+				OBJ_301 /* MessageOrBool.swift in Sources */,
+				OBJ_302 /* PhotoSize.swift in Sources */,
+				OBJ_303 /* ReplyKeyboardMarkup+Utils.swift in Sources */,
+				OBJ_304 /* ReplyKeyboardMarkup.swift in Sources */,
+				OBJ_305 /* ReplyKeyboardRemove.swift in Sources */,
+				OBJ_306 /* Response.swift in Sources */,
+				OBJ_307 /* ResponseParameters.swift in Sources */,
+				OBJ_308 /* Sticker.swift in Sources */,
+				OBJ_309 /* String+JsonConvertible.swift in Sources */,
+				OBJ_310 /* Update.swift in Sources */,
+				OBJ_311 /* User.swift in Sources */,
+				OBJ_312 /* UserProfilePhotos.swift in Sources */,
+				OBJ_313 /* Venue.swift in Sources */,
+				OBJ_314 /* Video.swift in Sources */,
+				OBJ_315 /* Voice.swift in Sources */,
+				OBJ_316 /* WebhookInfo.swift in Sources */,
+				OBJ_317 /* Utils.swift in Sources */,
+				OBJ_318 /* WriteCallbackData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_328 /* BlockingServerTests.swift in Sources */,
+				OBJ_329 /* RequestTests.swift in Sources */,
+				OBJ_330 /* RouterTests.swift in Sources */,
+				OBJ_331 /* TelegramBotTests.swift in Sources */,
+				OBJ_332 /* UrlencodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_340 /* LclJSONSerialization.swift in Sources */,
+				OBJ_341 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftyJSON::SwiftyJSON" /* SwiftyJSON */;
+			targetProxy = 5688655C201A787F006547C2 /* PBXContainerItemProxy */;
+		};
+		OBJ_335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftyJSON::SwiftyJSON" /* SwiftyJSON */;
+			targetProxy = 5688655D201A787F006547C2 /* PBXContainerItemProxy */;
+		};
+		OBJ_347 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "TelegramBotSDK::TelegramBotTests" /* TelegramBotTests */;
+			targetProxy = 5688655E201A7882006547C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		OBJ_170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		OBJ_175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		OBJ_176 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		OBJ_181 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/CCurl.git-1617595959053026717",
+				);
+				INFOPLIST_FILE = TelegramBotSDK.xcodeproj/TelegramBotSDK_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lcurl",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = TelegramBotSDK;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = TelegramBotSDK;
+			};
+			name = Debug;
+		};
+		OBJ_182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/CCurl.git-1617595959053026717",
+				);
+				INFOPLIST_FILE = TelegramBotSDK.xcodeproj/TelegramBotSDK_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lcurl",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = TelegramBotSDK;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = TelegramBotSDK;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/CCurl.git-1617595959053026717",
+				);
+				INFOPLIST_FILE = TelegramBotSDK.xcodeproj/TelegramBotTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lcurl",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = TelegramBotTests;
+			};
+			name = Debug;
+		};
+		OBJ_326 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/CCurl.git-1617595959053026717",
+				);
+				INFOPLIST_FILE = TelegramBotSDK.xcodeproj/TelegramBotTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-lcurl",
+				);
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = TelegramBotTests;
+			};
+			name = Release;
+		};
+		OBJ_337 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = TelegramBotSDK.xcodeproj/SwiftyJSON_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftyJSON;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = SwiftyJSON;
+			};
+			name = Debug;
+		};
+		OBJ_338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = TelegramBotSDK.xcodeproj/SwiftyJSON_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftyJSON;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = SwiftyJSON;
+			};
+			name = Release;
+		};
+		OBJ_345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_168 /* Build configuration list for PBXNativeTarget "TelegramBotSDKPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_169 /* Debug */,
+				OBJ_170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_174 /* Build configuration list for PBXNativeTarget "SwiftyJSONPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_175 /* Debug */,
+				OBJ_176 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_180 /* Build configuration list for PBXNativeTarget "TelegramBotSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_181 /* Debug */,
+				OBJ_182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "TelegramBotSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_324 /* Build configuration list for PBXNativeTarget "TelegramBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_325 /* Debug */,
+				OBJ_326 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_336 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_337 /* Debug */,
+				OBJ_338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_344 /* Build configuration list for PBXAggregateTarget "TelegramBotSDKPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_345 /* Debug */,
+				OBJ_346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}

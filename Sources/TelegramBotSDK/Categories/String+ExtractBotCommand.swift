@@ -11,7 +11,6 @@
 //
 
 import Foundation
-import ScannerUtils
 
 extension String {
 	/// - Parameter botName: bot name to remove.
